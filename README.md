@@ -1,5 +1,6 @@
 # S1.02.-Exceptions
 S1.02. Exceptions
+
 📄 Repository Content
 Each repository must contain a README.md file with the following sections:
 
@@ -55,8 +56,10 @@ Main Class: Contains the main method where an object of the "Cinema" class is in
 Seat Class: Manages the data of a seat, including attributes for row number, seat number, and the person reserving the seat.
 Cinema Class: Contains the attributes and initialization method for managing rows, seats per row, and seat management logic.
 Seat Management Class: Manages the seat reservation operations through methods for adding, removing, and searching for seats in an ArrayList.
+
 💻 Technologies Used
 Java
+
 📋 Requirements
 Java Development Kit (JDK) version 11 or higher.
 A suitable IDE or text editor (e.g., IntelliJ IDEA, Eclipse, VSCode).
@@ -77,6 +80,7 @@ Compile the Java files:
 bash
 Copy code
 javac Main.java
+
 ▶️ Execution
 Run the Java program:
 
@@ -89,6 +93,7 @@ Follow the on-screen instructions for interacting with the program.
 Deploy the application in your preferred environment.
 Ensure the appropriate runtime environment (Java JDK) is set up on the server.
 Use a production-ready deployment method (e.g., packaging into a JAR file).
+
 🤝 Contributions
 Contributions are welcome! Please follow these steps to contribute:
 
