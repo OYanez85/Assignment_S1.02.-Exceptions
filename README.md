@@ -5,7 +5,9 @@ S1.02. Exceptions
 Each repository must contain a README.md file with the following sections:
 
 📄 Description - Exercise Statements
-Level 1 - Exercise 1
+
+- Level 1 - Exercise 1
+  
 Create a class called "Product" with attributes name and price, and another class called "Sale". This class contains attributes for a collection of products and the total price of the sale.
 
 The "Sale" class has a method called calculateTotal() that throws a custom exception "EmptySaleException" and displays on the screen "To make a sale, you must first add products" if the product collection is empty. If the collection has products, it must iterate through the collection and store the sum of all product prices in the total price attribute of the sale.
@@ -14,7 +16,8 @@ The custom exception "EmptySaleException" must extend the Exception class. In it
 
 Write the necessary code to generate and catch an IndexOutOfBoundsException.
 
-Level 2 - Exercise 1
+- Level 2 - Exercise 1
+  
 Create a class called "Input". This class will be used to control the different exceptions that can occur in Java when entering data via the keyboard using the Scanner class.
 
 The first thing to do is instantiate an object of the Scanner class, and from there, create static methods to read different types of data from the keyboard.
@@ -26,20 +29,18 @@ All methods receive a String with the message to display to the user, such as: "
 
 Methods to be implemented, capturing the exception from the InputMismatchException class:
 
-java
-Copy code
 public static byte readByte(String message);
 public static int readInt(String message);
 public static float readFloat(String message);
 public static double readDouble(String message);
 Methods to be implemented, capturing a custom exception from the Exception class:
 
-java
-Copy code
 public static char readChar(String message);
 public static String readString(String message);
 public static boolean readYesNo(String message); // if the user enters "s", returns `true`, if the user enters "n", returns `false`.
-Level 3 - Exercise 1
+
+- Level 3 - Exercise 1
+
 A well-known cinema company has asked us to develop an application for seat reservations in their cinemas. The application will be used by sellers when selling tickets.
 
 Functionality
@@ -64,28 +65,22 @@ Java
 Java Development Kit (JDK) version 11 or higher.
 A suitable IDE or text editor (e.g., IntelliJ IDEA, Eclipse, VSCode).
 Command Line Interface (CLI) for executing the Java program.
+
 🛠️ Installation
 Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/OYanez85/Java.git
+
 Navigate to the project directory:
 
-bash
-Copy code
 cd Java
 Compile the Java files:
 
-bash
-Copy code
 javac Main.java
 
 ▶️ Execution
 Run the Java program:
 
-bash
-Copy code
 java Main
 Follow the on-screen instructions for interacting with the program.
 
@@ -99,15 +94,12 @@ Contributions are welcome! Please follow these steps to contribute:
 
 Fork the repository.
 Create a new branch:
-bash
-Copy code
+
 git checkout -b feature/NewFeature
 Make your changes and commit them:
-bash
-Copy code
+
 git commit -m "Add New Feature"
 Push the changes to your branch:
-bash
-Copy code
+
 git push origin feature/NewFeature
 Open a pull request and describe your changes.
