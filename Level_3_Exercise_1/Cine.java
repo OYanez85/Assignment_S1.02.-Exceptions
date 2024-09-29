@@ -1,4 +1,4 @@
-import java.util.Scanner;  // Add this line
+import java.util.Scanner;  
 
 public class Cine {
     private int files;
@@ -25,7 +25,7 @@ public class Cine {
     }
 
     public void demanarDadesInicials() {
-        Scanner sc = new Scanner(System.in);  // Scanner is now recognized
+        Scanner sc = new Scanner(System.in);  
         System.out.print("Enter the number of rows: ");
         this.files = sc.nextInt();
         System.out.print("Enter the number of seats per row: ");
