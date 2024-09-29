@@ -3,10 +3,10 @@ import java.util.Scanner;
 
 public class Input {
 
-    // Scanner object to be used by all methods
+    
     private static Scanner scanner = new Scanner(System.in);
 
-    // Method to read byte with exception handling
+    
     public static byte readByte(String message) {
         byte result = 0;
         boolean valid = false;
@@ -17,13 +17,13 @@ public class Input {
                 valid = true;
             } catch (InputMismatchException e) {
                 System.out.println("Format error, please enter a valid byte.");
-                scanner.next();  // Clear the invalid input
+                scanner.next();  
             }
         }
         return result;
     }
 
-    // Method to read int with exception handling
+    
     public static int readInt(String message) {
         int result = 0;
         boolean valid = false;
@@ -34,13 +34,13 @@ public class Input {
                 valid = true;
             } catch (InputMismatchException e) {
                 System.out.println("Format error, please enter a valid integer.");
-                scanner.next();  // Clear the invalid input
+                scanner.next();  
             }
         }
         return result;
     }
 
-    // Method to read float with exception handling
+    
     public static float readFloat(String message) {
         float result = 0;
         boolean valid = false;
@@ -51,13 +51,13 @@ public class Input {
                 valid = true;
             } catch (InputMismatchException e) {
                 System.out.println("Format error, please enter a valid float.");
-                scanner.next();  // Clear the invalid input
+                scanner.next(); 
             }
         }
         return result;
     }
 
-    // Method to read double with exception handling
+    
     public static double readDouble(String message) {
         double result = 0;
         boolean valid = false;
@@ -68,13 +68,13 @@ public class Input {
                 valid = true;
             } catch (InputMismatchException e) {
                 System.out.println("Format error, please enter a valid double.");
-                scanner.next();  // Clear the invalid input
+                scanner.next();  
             }
         }
         return result;
     }
 
-    // Method to read char with custom exception handling
+    
     public static char readChar(String message) throws Exception {
         System.out.println(message);
         String input = scanner.next();
@@ -84,13 +84,13 @@ public class Input {
         return input.charAt(0);
     }
 
-    // Method to read string
+    
     public static String readString(String message) {
         System.out.println(message);
         return scanner.next();
     }
 
-    // Method to read yes/no input
+    
     public static boolean readYesNo(String message) {
         boolean valid = false;
         boolean result = false;
@@ -110,9 +110,9 @@ public class Input {
         return result;
     }
 
-    // Main method to test the Input class
+    
     public static void main(String[] args) {
-        // Test the Input class
+        
         byte age = Input.readByte("Enter your age: ");
         System.out.println("Your age: " + age);
 
